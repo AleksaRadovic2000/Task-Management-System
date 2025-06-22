@@ -10,4 +10,8 @@ class TaskManagementSystemBeApplicationTests {
 	void contextLoads() {
 	}
 
+	void userRegister() {
+
+	}
+
 }

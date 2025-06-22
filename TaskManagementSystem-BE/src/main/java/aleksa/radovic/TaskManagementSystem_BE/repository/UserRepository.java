@@ -1,2 +1,13 @@
-package aleksa.radovic.TaskManagementSystem_BE.repository;public interface UserRepository {
+package aleksa.radovic.TaskManagementSystem_BE.repository;
+
+import aleksa.radovic.TaskManagementSystem_BE.model.User;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.Query;
+import org.springframework.stereotype.Repository;
+
+import java.util.Optional;
+
+@Repository
+public interface UserRepository extends JpaRepository<User, Long> {
+    User findByUsername(String username);
 }

@@ -1,2 +1,5 @@
-package aleksa.radovic.TaskManagementSystem_BE.model;public enum Priority {
+package aleksa.radovic.TaskManagementSystem_BE.model;
+
+public enum Priority {
+    LOW, MEDIUM, HIGH
 }
